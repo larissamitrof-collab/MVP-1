@@ -1,6 +1,6 @@
-# Análise Exploratória e Pré‑processamento de Dados sobre Uso de Smartphone e Qualidade do Sono
+# Machine Learning & Analytics sobre Uso de Smartphone, Qualidade do Sono e Níveis de Estresse
 
-Este projeto apresenta uma análise exploratória e o pré‑processamento de um dataset obtido no **Kaggle**, contendo informações sobre o uso de smartphones antes de dormir e seus impactos em variáveis relacionadas ao sono e ao bem‑estar. O objetivo é compreender padrões, relações e possíveis correlações entre comportamento digital noturno e qualidade do sono.
+Este projeto apresenta um análise exploratória, pré‑processamento e desenvolvimento de um modelo Machine Learning & Analytics de um dataset obtido no **Kaggle**, contendo informações sobre o uso de smartphones antes de dormir e seus impactos em variáveis relacionadas ao sono e ao bem‑estar. O objetivo é compreender padrões, relações e possíveis correlações entre comportamento digital noturno e qualidade do sono.
 
 ## Contexto do Dataset
 
@@ -18,10 +18,7 @@ Essas variáveis permitem investigar como hábitos noturnos de uso de dispositiv
 
 ## Objetivos do Projeto
 
-- Realizar **análise exploratória de dados (EDA)** para identificar padrões, tendências e possíveis relações entre variáveis.
-- Executar **pré‑processamento** para preparar o dataset para análises futuras ou modelos preditivos.
-- Avaliar como fatores demográficos influenciam o uso de smartphone e a qualidade do sono.
-- Explorar possíveis associações entre tempo de tela, estresse e duração do sono.
+O objetivo deste trabalho é construir e avaliar um modelo de Machine Learning para prever o nível de estresse (em escala de 0 a 10) a partir de dados sobre padrões de sono, estilo de vida e uso de celular.
 
 ## Etapas do Trabalho
 
@@ -42,16 +39,30 @@ Essas variáveis permitem investigar como hábitos noturnos de uso de dispositiv
 - Comparações entre grupos (gênero, idade, ocupação)  
 - Avaliação da relação entre tempo de tela e qualidade do sono  
 
-### 4. Preparação para análises futuras
+### 4. Preparação dos dados para análises futuras
 - Criação de novas variáveis derivadas  
-- Estruturação do dataset final para modelagem ou estudos adicionais  
+- Estruturação do dataset final para modelagem
 
-## Principais Perguntas Investigadas
+## Pré - processamento
+- Baseline e modelos candidatos
+- Justificativa dos modelos utilizados
+  
+## Treinamento e avaliação
+- Análise dos resultados
+- Escolha do melhor modelo
 
-- O uso do smartphone antes de dormir afeta a qualidade do sono?  
-- Existe relação entre tempo de tela e níveis de estresse?  
-- Idade, gênero ou ocupação influenciam esses padrões?  
-- Quanto tempo as pessoas dormem em média considerando diferentes perfis?  
+  ## Análise Final
+- Análise de erros e limitações
+
+## Comparação final dos modelos
+
+## Boas práticas de rastreabilidade
+
+## Conclusão
+
+## Próximos passos
+
+## Teste do modelo com usuário fictício
 
 ## Estrutura do Repositório
 
@@ -65,7 +76,13 @@ Essas variáveis permitem investigar como hábitos noturnos de uso de dispositiv
 - Python  
 - Pandas  
 - NumPy  
-- Matplotlib / Seaborn  
+- Matplotlib / Seaborn
+- sklearn
+- os
+- sys
+- time
+- random
+- warnings
 
 ## Autora
 
